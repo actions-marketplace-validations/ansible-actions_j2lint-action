@@ -1,7 +1,7 @@
  Action Jinja2 Linting
 ========================
 
-Linting Yaml files using the j2lint package directly from pypi.
+Linting Jinja2 files using the j2lint package directly from pypi.
 
 ## Usage
 
@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'checkout git repo'
+      - name: Checkout git repo
         uses: actions/checkout@v4
         with:
           submodules: true
